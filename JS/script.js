@@ -1,7 +1,18 @@
-let verm = document.getElementById("red").value;
-let azu = document.getElementById("blue").value;
-let verd = document.getElementById("green").value;
-let mudanca = document.getElementById("tchuco").value;
+
+let mudanca = document.getElementById("div");
+
+if(mudanca.style.backgroundColor == 'white'){
+
+mudanca.style.backgroundColor = 'black';
+
+}
 
 function mudarRed(){
+    var i = parseInt(0);
+
+if(mudanca.style.backgroundColor == rgb(0, 0, 0)){
+    
+    i = ++i;
+    mudanca.style.backgroundColor = 'rgb(i, 0, 0)';
+}
 }
