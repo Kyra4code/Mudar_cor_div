@@ -4,6 +4,21 @@
     flex-direction: column;
     padding: 200px;
 }
-#div{
-    ground-color: black;
+.div{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.div-da-div{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(10, 0, 0);
+}
+#valor-gree, #valor-red, #valor-blue{
+background-color: gray;
+}
+.div-dadiv-dadiv{
+    margin-top: 110px;
 }

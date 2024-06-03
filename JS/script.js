@@ -1,18 +1,23 @@
 
-let mudanca = document.getElementById("div");
+function mudar(){
+   //variáveis
+    const red = document.querySelectorAll("#red, #green, #blue");
+    let div = document.getElementById("di");
 
-if(mudanca.style.backgroundColor == 'white'){
+    //mudar a div
+    div.style.backgroundColor = `rgb( ${red[0].value }, ${red[1].value}, ${red[2].value})`;
+    div.style.color = `rgb( ${red[0].value}, ${red[1].value}, ${red[2].value})`;
 
-mudanca.style.backgroundColor = 'black';
+    var x = document.querySelectorAll("#red, #green, #blue")
+    x = `${red[0].value}`;
+    var y = `${red[1].value}`;
+    var z = `${red[2].value}`;
 
+    document.getElementById("valor-red").value = x;
+    document.getElementById("valor-blue").value = y;
+    document.getElementById("valor-gree").value = z;
 }
 
-function mudarRed(){
-    var i = parseInt(0);
-
-if(mudanca.style.backgroundColor == rgb(0, 0, 0)){
-    
-    i = ++i;
-    mudanca.style.backgroundColor = 'rgb(i, 0, 0)';
-}
-}
+const dds = 0;
+var ll = 0;
+let pp = 0;
